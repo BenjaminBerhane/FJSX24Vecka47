@@ -30,6 +30,94 @@ h1 {
 .informationSection {
   width: 100vw;
   height: 720px;
+  background-color: #424242;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.charactersContainer {
+  width: 484px;
+  height: 624px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  top: -45px;
+}
+
+.charactersContainer h2 {
+  font-family: Ropa Sans;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-align: center;
+  background-color: #535556;
+  padding: 30px;
+  margin: 0;
+  color: #ffd600;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.detailsContainer {
+  width: 484px;
+  height: 624px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  top: -45px;
+}
+
+.detailsContainer h2 {
+  font-family: Ropa Sans;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-align: center;
+  background-color: #738289;
+  padding: 30px;
+  margin: 0;
+  color: #ffd600;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.detailsBoxFirst {
+  background-color: lightgray;
+}
+
+.detailsInfoBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnBox button {
+  color: #8c7600;
+  padding: 10px 30px;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+}
+
+.detailsBoxSecond {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  height: 287px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.detailsBoxSecond h3 {
+  padding: 0px 15px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.detailsBoxSecond p {
+  padding: 0px 15px;
+  color: white;
 }
 
 /* alla children till informationSection */
