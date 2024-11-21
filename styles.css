@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* alla children till body */
+
+.hero {
+  background-image: url("https://s3-alpha-sig.figma.com/img/bb47/e2c3/a3fae2ef0c636e73f74801f44296aa74?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HnVP8CTOJQa8eKXub7H7x6ZNahSzJpjVqWjkA4-5hknQB4EYzKEYc4mBp0EIJ38C90bZ-KHDUZV84wkVY45dDXvoJtOvo6DzPH~NvqKj7fUf8Zlpz1FDsL7n8es5~61JO533cbEi1Ogl~2jIZEy0UEMHCPKkZPbPBpDbFva0qlD2JRTcg1u0PqQlrnNZDw-W8lt4Gerhu22P~b9gclEjTvSm8IJgNsAKVmNid97elnAvtzohte9o8NE7MJC2TP-Xlbf8P85sAjPfVKu~XO7vvagSI7oFmi~os4wMtbeLe3xgA0AeG~oIjsyLD--LgxZ0kAn5PucDaj2ISlWLvnKJhA__");
+  height: 385px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+/* alla children till hero */
+
+h1 {
+  width: 380px;
+  top: 105px;
+  left: 67px;
+  color: #ffd600;
+  position: absolute;
+  font-family: Ropa SANS-SERIF;
+  font-size: xxx-large;
+  font-weight: 400;
+}
+
+.informationSection {
+  width: 100vw;
+  height: 720px;
+}
+
+/* alla children till informationSection */
