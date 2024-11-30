@@ -7,7 +7,15 @@
 
 // Uppgift:
 // Visa endast titeln och användar-ID för varje inlägg.
-
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     data.forEach((object) => {
+//        console.log(`Inläggstitel: ${object.title} och användar-ID: ${object.userId}`) 
+//     });
+//   });
 // -----------------------------------------------------------
 // Övning 2: Hantera fel i nätverksförfrågningar
 
@@ -17,12 +25,46 @@
 
 // Utmaning:
 // Lägg till ett fallback-meddelande på sidan om API inte svarar.
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     data.forEach((object) => {
+//        console.log(`Inläggstitel: ${object.title} och användar-ID: ${object.userId}`) 
+//     });
+//   })
+//     .catch((error) => {
+//         console.error("error:", error);
+        
+//     });
+
 
 // -----------------------------------------------------------
 // Övning 3: Använd HTTPS för att hämta data från GitHub API
 
 // Gör en GET-förfrågan till GitHub API (https://api.github.com/users/{användarnamn}/repos).
 // Visa repository-namnen i en lista på webbsidan.
+// fetch("https://api.github.com/users/BenjaminBerhane/repos")
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error(`HTTP-fel! Status: ${response.status}`);
+//     }
+//     return response.json();
+    
+    
+//   })
+//   .then((data) => { 
+//     const ul = document.querySelector("ul");
+//     data.forEach((repo) => {
+//         const li = document.createElement("li");
+//         li.innerText = repo.name;
+//         ul.appendChild(li);
+//         });
+//     })
+//   .catch((err) => {
+//     console.error("err: ", err);
+//   });
 
 // Utmaning:
 // Lägg till en input där användaren kan ange ett GitHub-användarnamn och visa deras repositories.
